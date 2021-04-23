@@ -1,4 +1,6 @@
-public class PalindromeString {   
+package com.lakshya.String;
+
+public class PalindromeString {
     public static int isPlaindrome(String S) {
         // We solve this problem Stack data structure
         if (S == null) return 0;
