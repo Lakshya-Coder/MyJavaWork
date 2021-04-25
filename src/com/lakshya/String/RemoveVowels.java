@@ -1,3 +1,5 @@
+package com.lakshya.String;
+
 public class RemoveVowels { 
 	public static String removeVowels(String str) {
 		// Vowels are: a e i o u
