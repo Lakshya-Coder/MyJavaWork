@@ -1,15 +1,6 @@
-// package com.lakshya.String;
+package com.lakshya.String;
 
 public class LongestPalindromeInString {
-
-    static void printSubStr(String str,
-                            int low, int high)
-    {
-        System.out.println(
-            str.substring(
-                low, high + 1));
-    }
- 
     // This function prints the
     // longest palindrome substring
     // (LPS) of str[]. It also
