@@ -12,7 +12,7 @@ public class SentenceIsPangram {
         sentence.replace(" ", "");
         int[] arr = new int[26];
         for (char c : sentence.toCharArray()) {
-            int index = c - 97;
+            int index = c - 'a';
             arr[index] = 1;
         }
         
