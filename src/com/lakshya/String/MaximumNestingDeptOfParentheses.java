@@ -1,7 +1,5 @@
 package com.lakshya.String;
 
-import java.util.Stack;
-
 public class MaximumNestingDeptOfParentheses {
     public static int maxDepth(String str) {
         int n = str.length();
