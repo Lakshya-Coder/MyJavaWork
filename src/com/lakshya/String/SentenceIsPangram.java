@@ -1,4 +1,4 @@
-// package com.lakshya.String;
+package com.lakshya.String;
 
 public class SentenceIsPangram {
 	public static boolean checkIfPangram(String sentence) {
