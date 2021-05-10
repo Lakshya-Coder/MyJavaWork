@@ -4,13 +4,12 @@ package com.lakshya.Matrix_Question;
 public class MaximumSquar {
 
     static int maxSquare(int n, int m, int mat[][]) {
-        if (mat == null) {
+        if (mat == null)
             return -1;
-        }
-        
-        if (n == 0) {
+
+        if (n == 0)
             return 0;
-        } else if (n == 1 || m == 1) {
+        else if (n == 1 || m == 1) {
             for (int i = 0; i < n; i++)
                 for (int j = 0; j < m; j++)
                     if (mat[i][j] == 1)
@@ -23,14 +22,12 @@ public class MaximumSquar {
         int[][] dp = new int[n][m];
 
         // Set first column of dp[][]
-        for (i = 0; i < n; i++) {
+        for (i = 0; i < n; i++)
             dp[i][0] = mat[i][0];
-        }
 
         // Set first row of dp[][]
-        for (j = 0; j < m; j++) {
+        for (j = 0; j < m; j++)
             dp[0][j] = mat[0][j];
-        }
 
         // Construct other entries of dp[][]
         for (i = 1; i < n; i++) {
