@@ -17,7 +17,6 @@ public class TrapingRainWater {
                     break;
                 else {
                     int diff = i - stack.peek() - 1; // length of container
-                    System.out.println(diff);
                     ans += (min(arr[stack.peek()], arr[i]) - arr[curr]) * diff;
                 }
             }
