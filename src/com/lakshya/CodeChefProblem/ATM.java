@@ -12,6 +12,8 @@ public class ATM {
         amount = sc.nextFloat();
         balance = sc.nextFloat();
 
+        sc.close();
+
         float remaining_val;
 
         if (amount % 5 == 0) {

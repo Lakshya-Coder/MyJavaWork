@@ -5,23 +5,23 @@ import java.util.Stack;
 import static java.lang.Math.min;
 
 public class TrapingRainWater {
-    public static int rain_water(int[] arr) {
-        int n = arr.length, ans = 0;
+    public static int rain_water(int[] height) {
+        int ans = 0;
+        int current = 0;
 
-        Stack<Integer> stack = new Stack<>();
-        for (int i = 0; i < n; i++) {
-            while (!stack.isEmpty() && arr[stack.peek()] < arr[i]) {
-                int curr = stack.pop();
+        Stack<Integer> st = new Stack<>();
 
-                if (stack.isEmpty())
+        while (current < height.length) {
+            while (!st.isEmpty() && height[current] > height[st.peek()]) {
+                int top = st.pop();
+
+                if (st.isEmpty())
                     break;
-                else {
-                    int diff = i - stack.peek() - 1; // length of container
-                    ans += (min(arr[stack.peek()], arr[i]) - arr[curr]) * diff;
-                }
+                int distance /* or difference */ = current - st.peek() - 1;
+                int bounded_height = Math.min(height[current], height[st.peek()]) - height[top];
+                ans += distance *  bounded_height;
             }
-
-            stack.push(i);
+            st.add(current++);
         }
 
         return ans;
@@ -32,6 +32,6 @@ public class TrapingRainWater {
 
         int ans = rain_water(arr);
 
-        // System.out.println(ans);
+         System.out.println(ans);
     }
 }

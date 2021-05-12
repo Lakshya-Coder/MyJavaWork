@@ -22,5 +22,7 @@ public class Rectangle {
                 System.out.println("NO");
             }
         }
+
+        sc.close();
     }
 }

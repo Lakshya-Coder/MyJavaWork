@@ -23,5 +23,7 @@ public class HelpingChef {
             } else
                 System.out.println(-1);
         }
+
+        sc.close();
     }
 }
