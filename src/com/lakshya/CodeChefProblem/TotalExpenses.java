@@ -1,4 +1,4 @@
-// package com.lakshya.CodeChefProblem;
+package com.lakshya.CodeChefProblem;
 
 import java.io.*;
 import java.util.StringTokenizer;
