@@ -17,7 +17,7 @@ public class SellAllCars {
             stringTokenizer = new StringTokenizer(reader.readLine());
 
             int n = Integer.parseInt(stringTokenizer.nextToken());
-            ArrayList<Integer> arrayList = new ArrayList(n);
+            ArrayList<Integer> arrayList = new ArrayList<>(n);
 
             stringTokenizer = new StringTokenizer(reader.readLine());
 
