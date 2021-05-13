@@ -1,5 +1,9 @@
 package com.lakshya.PepCoding;
 
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.PrintStream;
 import java.util.Scanner;
 
 public class FaultyKeyboard {
@@ -32,7 +36,7 @@ public class FaultyKeyboard {
 
     // ~~~~~~~~~~~~~~~~~~~Input Management~~~~~~~~~~~~~~~~~~~
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws FileNotFoundException {
         Scanner scn = new Scanner(System.in);
 
         String name = scn.next();

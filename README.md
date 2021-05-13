@@ -32,4 +32,4 @@ to goto the download page of jdk and download a latest version.
 
 Step 2: Run the .exe file and simply install it.
 
-> Thanks for reading this.
+> Thanks for reading :).
