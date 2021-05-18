@@ -1,64 +1,76 @@
 package com.lakshya.leetcode;
 
+import java.io.*;
+import java.util.StringTokenizer;
+
 public class FindFirstAndLastElement {
-    class Solution {
+    static class Solution {
         public int[] searchRange(int[] nums, int target) {
-            int[] result = new int[2];
-            
-            result[0] = findStartingIndex(nums, target);
-            result[1] = findEndingIndex(nums, target);
+            // int[] result = new int[] {-1, -1};
+
+            // int n = nums.length;
+            // for (int i = 0; i < n; i++) {
+            //     if (result[0] != -1) {
+            //         if (nums[i] == target) result[1] = i;
+            //     } else if (nums[i] == target) result[0] = i;
+            // }
+
+            // return result;
+
+            int[] result = new int[] {-1, -1};
+            if (nums.length == 0) {
+                return result;
+            }
+
+            int start = 0;
+            int end = nums.length - 1;
+
+            while (start < end) {
+                int mid = start + (end - start) / 2;
+
+                if (nums[mid] >= target) // Target is not present in right half we need to move in left half
+                    end = mid;
+                else
+                    start = mid + 1;
+            }
+
+            if (nums[start] != target)
+                return result;
+
+            result[0] = start;
+
+            end = nums.length;
+
+            while (start < end) {
+                int mid = start + (end - start) / 2;
+
+                if (nums[mid] > target) // Target is not present in right half we need to move in left half
+                    end = mid;
+                else
+                    start = mid + 1;
+            }
+
+            result[1] = start - 1;
 
             return result;
         }
+    }
 
-        private int findStartingIndex(int[] nums, int target) {
-            int index = -1;
+    public static void main(String[] args) throws Exception {
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
-            int start = 0;
-            int end = nums.length - 1;
+        StringTokenizer stringTokenizer = new StringTokenizer(reader.readLine());
+        int n = Integer.parseInt(stringTokenizer.nextToken());
 
-            while (start <= end) {
-                int midPoint = start + (end - start) / 2;
-                int currNum = nums[midPoint];
+        int[] nums = new int[n];
+        int target = Integer.parseInt(stringTokenizer.nextToken());
 
-                if (currNum >= target) {
-                    end = midPoint - 1;
-                } else {
-                    start = midPoint + 1;
-                }
+        stringTokenizer = new StringTokenizer(reader.readLine());
+        for (int i = 0; i < n; i++) nums[i] = Integer.parseInt(stringTokenizer.nextToken());
 
-                if (currNum == target) {
-                    index = midPoint;
-                    break;
-                }
-            }
+        Solution solution = new Solution();
+        int[] answer = solution.searchRange(nums, target);
 
-            return index;
-        }
-
-        private int findEndingIndex(int[] nums, int target) {
-            int index = -1;
-
-            int start = 0;
-            int end = nums.length - 1;
-
-            while (start <= end) {
-                int midPoint = start + (end - start) / 2;
-                int currNum = nums[midPoint];
-
-                if (currNum >= target) {
-                    start = midPoint + 1;
-                } else {
-                    end = midPoint - 1;
-                }
-
-                if (currNum == target) {
-                    index = midPoint;
-                    break;
-                }
-            }
-            
-            return index;
-        }
+        System.out.println(answer[0] + " " + answer[1]);
     }
 }
