@@ -1,3 +1,5 @@
+// This code come from this YouTube video: https://www.youtube.com/watch?v=c_HH9sakxpY
+
 package com.lakshya.leetcode;
 
 import java.io.*;
@@ -6,17 +8,6 @@ import java.util.StringTokenizer;
 public class FindFirstAndLastElement {
     static class Solution {
         public int[] searchRange(int[] nums, int target) {
-            // int[] result = new int[] {-1, -1};
-
-            // int n = nums.length;
-            // for (int i = 0; i < n; i++) {
-            //     if (result[0] != -1) {
-            //         if (nums[i] == target) result[1] = i;
-            //     } else if (nums[i] == target) result[0] = i;
-            // }
-
-            // return result;
-
             int[] result = new int[] {-1, -1};
             if (nums.length == 0) {
                 return result;
