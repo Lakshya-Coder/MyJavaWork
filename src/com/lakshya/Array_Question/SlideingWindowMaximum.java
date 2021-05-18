@@ -15,8 +15,10 @@ public class SlideingWindowMaximum {
             arr[i] = sc.nextInt();
         }
 
+        sc.close();
+
         Deque<Integer> deque = new LinkedList<>();
-        List<Integer> result = new ArrayList();
+        List<Integer> result = new ArrayList<>();
 
         for (int i = 0; i < k; i++) {
             while (!deque.isEmpty() && arr[deque.getLast()] < arr[i])

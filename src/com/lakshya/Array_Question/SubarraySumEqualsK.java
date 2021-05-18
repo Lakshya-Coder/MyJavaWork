@@ -12,6 +12,8 @@ public class SubarraySumEqualsK {
 
         for (int i = 0; i < n; i++) nums[i] = sc.nextInt();
 
+        sc.close();
+
         Solution solution = new Solution();
         int res = solution.subarraySum(nums, k);
 

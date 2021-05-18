@@ -2,8 +2,6 @@ package com.lakshya.Array_Question;
 
 import java.util.Stack;
 
-import static java.lang.Math.min;
-
 public class TrapingRainWater {
     public static int rain_water(int[] height) {
         int ans = 0;
