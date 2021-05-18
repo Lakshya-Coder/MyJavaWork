@@ -8,6 +8,7 @@ public class RedundantParenthesis {
         Scanner sc = new Scanner(System.in);
 
         String string = sc.nextLine();
+        sc.close();
 
         Stack<Character> stack = new Stack<>();
 

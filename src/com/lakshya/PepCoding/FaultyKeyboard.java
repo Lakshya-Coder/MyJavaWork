@@ -1,9 +1,6 @@
 package com.lakshya.PepCoding;
 
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-import java.io.FileOutputStream;
-import java.io.PrintStream;
 import java.util.Scanner;
 
 public class FaultyKeyboard {
@@ -41,6 +38,8 @@ public class FaultyKeyboard {
 
         String name = scn.next();
         String typed = scn.next();
+
+        scn.close();
 
         boolean res = isPossible(name, typed);
 

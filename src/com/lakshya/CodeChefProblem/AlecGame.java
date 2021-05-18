@@ -18,9 +18,6 @@ public class AlecGame {
             String a = stringTokenizer.nextToken();
             String b = stringTokenizer.nextToken();
 
-            int[] arr_a = new int[26];
-            int[] arr_b = new int[26];
-
             boolean ans = true;
             for (int i = 0; i < b.length(); i++) {
                 char c = b.charAt(i);
