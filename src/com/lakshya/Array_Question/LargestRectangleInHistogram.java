@@ -16,13 +16,15 @@ public class LargestRectangleInHistogram {
         long max = Long.MIN_VALUE;
         Stack<Long> st = new Stack<>();
         st.add(0L); // This is the default value of this stack
-        
+
         for (long i = 1; i < n; i++) {
             long curr = hi[(int) i];
 
             topOfStackInInt = Math.toIntExact(st.peek());
-            if (curr >= hi[topOfStackInInt]) /* If current element is greater than st.peek(), so we
-               need to add the index of current value in stack */
+            if (curr >= hi[topOfStackInInt]) /*
+                                              * If current element is greater than st.peek(), so we need to add the
+                                              * index of current value in stack
+                                              */
                 st.add(i);
             else {
                 while (!st.isEmpty() && curr < hi[Math.toIntExact(st.peek())]) {
@@ -37,14 +39,14 @@ public class LargestRectangleInHistogram {
                 st.add(i);
             }
         }
-        
+
         if (!st.isEmpty()) {
             int i = hi.length;
-            
+
             while (!st.isEmpty()) {
                 topOfStackInInt = Math.toIntExact(st.pop());
                 long tmp = hi[topOfStackInInt];
-                
+
                 if (st.isEmpty()) {
                     max = Math.max(max, tmp * i);
                 } else {
@@ -52,7 +54,7 @@ public class LargestRectangleInHistogram {
                 }
             }
         }
-        
+
         return max;
     }
 

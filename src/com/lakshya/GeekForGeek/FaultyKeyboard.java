@@ -8,10 +8,10 @@ public class FaultyKeyboard {
     static class Solution {
         public static int maxNatural(int m) {
             int number = 9;
-            int digit = 1;
+            int digit = 1; // The length of the number
 
             while (m > number * digit) {
-                m -= number * digit;
+                m = m - (number * digit);
 
                 digit++;
                 number *= 10;
