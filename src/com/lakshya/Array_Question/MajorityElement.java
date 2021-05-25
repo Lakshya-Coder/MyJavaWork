@@ -5,7 +5,7 @@ import java.util.*;
 
 public class MajorityElement {
     public static int majorityElement(int[] nums) {
-//      zz  for (int num : nums) {
+//       for (int num : nums) {
 //            int count = 0;
 //
 //            for (int val : nums) {
