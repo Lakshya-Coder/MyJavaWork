@@ -5,27 +5,38 @@ import java.util.*;
 public class RightViewOfBinaryTree {
     static class Solution {
         ArrayList<Integer> rightView(Node node) {
-            ArrayList<Integer> result = new ArrayList<>();
+            ArrayList<Integer> arrayList = new ArrayList<>();
+
+            if (node == null) {
+                return arrayList;
+            }
+
             Queue<Node> queue = new LinkedList<>();
             queue.add(node);
 
             while (!queue.isEmpty()) {
                 int n = queue.size();
 
+                // while (n -- != 0) {
+                //     Node temp = queue.poll();
+
+                //     if (temp.left != null) queue.offer(temp.left);
+                //     if (temp.right != null) queue.offer(temp.right);
+                // }
+
                 for (int i = 1; i <= n; i++) {
-                    Node currNode = queue.remove();
+                    Node temp = queue.poll();
 
-                    if (currNode.left != null)
-                        queue.add(currNode.left);
+                    if (i == n) {
+                        arrayList.add(temp.data);
+                    }
 
-                    if (currNode.right != null)
-                        queue.add(currNode.right);
+                    if (temp.left != null) queue.offer(temp.left);
+                    if (temp.right != null) queue.offer(temp.right);
                 }
-
-                result.add(queue.peek() == null ? null : queue.peek().data);
             }
 
-            return result;
+            return arrayList;
         }
     }
 

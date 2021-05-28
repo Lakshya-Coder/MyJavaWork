@@ -26,10 +26,7 @@ public class PlayPiano {
                 }
             }
 
-            if (answer)
-                System.out.println("no");
-            else
-                System.out.println("yes");
+            System.out.println(answer ? "no" : "yes");
         }
     }
 }
