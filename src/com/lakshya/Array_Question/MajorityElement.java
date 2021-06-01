@@ -4,48 +4,37 @@ import java.io.*;
 import java.util.*;
 
 public class MajorityElement {
-    public static int majorityElement(int[] nums) {
-//       for (int num : nums) {
-//            int count = 0;
-//
-//            for (int val : nums) {
-//                if (val == num) count++;
-//            }
-//
-//            if (count > nums.length / 2) {
-//                return num;
-//            }
-//        }
-//
-//        return -1;
+    public static int majorityElement(int[] arr) {
+        int n = arr.length;
+        int ans_idx = 0;
+        int cnt = 1;
 
-//        HashMap<Integer, Integer> hashMap = calculateCount(nums, nums.length);
-//
-//        Set<Map.Entry<Integer, Integer>> a = hashMap.entrySet();
-//
-//        for (Map.Entry<Integer, Integer> entry : a) {
-//            if (entry.getValue() > nums.length / 2) return entry.getKey();
-//        }
-//
-//        return -1;
+        for (int i = 1; i < n; i++) {
+            if (arr[i] == arr[ans_idx]) {
+                cnt++;
+            } else {
+                cnt--;
+            }
 
-        Arrays.sort(nums);
+            if (cnt == 0) {
+                ans_idx = i;
+                cnt = 1; // Set the cnt to default value
+            }
+        }
 
-        return nums[nums.length / 2];
+        int countOfAnsIdx = 0;
+        for (int num : arr) {
+            if (num == arr[ans_idx]) {
+                countOfAnsIdx++;
+            }
+
+            if (countOfAnsIdx > n / 2) {
+                return num;
+            }
+        }
+
+        return -1;
     }
-
-//    private static HashMap<Integer, Integer> calculateCount(int[] nums, int length) {
-//        HashMap<Integer, Integer> hashMap = new HashMap<>();
-//
-//        for (int num : nums) {
-//            if (hashMap.containsKey(num))
-//                hashMap.put(num, hashMap.get(num) + 1);
-//            else
-//                hashMap.put(num, 1);
-//        }
-//
-//        return hashMap;
-//    }
 
     public static void main(String[] args) throws Exception {
         InputStream in = System.in;

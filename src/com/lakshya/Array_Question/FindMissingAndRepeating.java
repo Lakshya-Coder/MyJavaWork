@@ -3,36 +3,27 @@ package com.lakshya.Array_Question;
 public class FindMissingAndRepeating {
     static class Solution {
         public int[] findTwoElement(int[] arr, int n) {
+            int a = -1;
+            int b = -1;
+
+            for (int i = 0; i < n; i++) { // 0 ... n - 1
+                int curr = Math.abs(arr[i]);
+
+                if (arr[curr - 1 /* 0 base indexing */] < 0) {
+                    a = i + 1;
+                } else {
+                    arr[curr - 1] *= -1;
+                }
+            }
+
+            for (int i = 0; i < n; i++) {
+                if (arr[i] >= 0) {
+                    b = i +  1;
+                    break;
+                }
+            }
+
             int[] res = new int[] {-1, -1};
-
-            if (arr == null || n == 0)
-                return res;
-
-            if (n == 1) {
-                if (arr[0] == 1) {
-                    res[0] = 1;
-                    res[1] = 0;
-                }
-
-                return res;
-            }
-
-            int[] frequencies = new int[n + 1];
-
-            for (int val : arr)
-                frequencies[val]++;
-
-            int a = 0;
-            int b = 0;
-
-            for (int i = 0; i <= n; i++) {
-                int frequency = frequencies[i];
-                if (frequency > 1) {
-                    a = i;
-                } else if (frequency == 0) {
-                    b = i;
-                }
-            }
 
             res[0] = a;
             res[1] = b;
@@ -42,7 +33,7 @@ public class FindMissingAndRepeating {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 3, 3};
+        int[] arr = {2, 2};
         int n = arr.length;
 
         Solution solution = new Solution();
