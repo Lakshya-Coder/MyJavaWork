@@ -3,6 +3,7 @@ package com.lakshya.Array_Question;
 public class FindMissingAndRepeating {
     static class Solution {
         public int[] findTwoElement(int[] arr, int n) {
+            // This code crash when input arr contains negative number
             int a = -1;
             int b = -1;
 
@@ -12,7 +13,7 @@ public class FindMissingAndRepeating {
                 if (arr[curr - 1 /* 0 base indexing */] < 0) {
                     a = i + 1;
                 } else {
-                    arr[curr - 1] *= -1;
+                    arr[curr - 1] *= -1 ;
                 }
             }
 
