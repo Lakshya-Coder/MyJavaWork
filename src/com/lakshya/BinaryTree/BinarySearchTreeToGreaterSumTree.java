@@ -4,20 +4,20 @@ public class BinarySearchTreeToGreaterSumTree {
     static class Solution {
         int[] count = new int[101];
     
-        private void fillTheCount(TreeNode root) {
+        private void fillTheCount(Node root) {
             if (root != null) {
-                count[root.val] = 1;
+                count[root.data] = 1;
                 
                 fillTheCount(root.left);
                 fillTheCount(root.right);
             }
         }
         
-        public TreeNode bstToGst(TreeNode root) {
+        public Node bstToGst(Node root) {
             fillTheCount(root);
             
             if (root != null) {
-                int curr = root.val;
+                int curr = root.data;
                 
                 int sum = curr;
                 
@@ -27,7 +27,7 @@ public class BinarySearchTreeToGreaterSumTree {
                     }
                 }
                 
-                root.val = sum;
+                root.data    = sum;
                 
                 bstToGst(root.left);
                 bstToGst(root.right);

@@ -1,3 +1,5 @@
+package com.lakshya.Array_Question;
+
 public class FindTheHighestAltitude {
     static class Solution {
         public int largestAltitude(int[] gain) {

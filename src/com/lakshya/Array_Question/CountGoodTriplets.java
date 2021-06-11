@@ -1,3 +1,5 @@
+package com.lakshya.Array_Question;
+
 public class CountGoodTriplets {
     static class Solution {
         public int countGoodTriplets(int[] arr, int a, int b, int c) {
