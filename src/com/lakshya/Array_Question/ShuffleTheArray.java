@@ -36,7 +36,6 @@ public class ShuffleTheArray {
             int len = nums.length;
             int[] result = new int[len];
 
-            int x = 0;
             int y = n;
 
 //         for (int i = 0; i < len; i++) {

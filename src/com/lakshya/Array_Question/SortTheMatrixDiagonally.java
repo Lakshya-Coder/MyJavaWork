@@ -1,6 +1,6 @@
 package com.lakshya.Array_Question;
 
-import java.util.*;
+// import java.util.*;
 
 public class SortTheMatrixDiagonally {
     static class Solution {

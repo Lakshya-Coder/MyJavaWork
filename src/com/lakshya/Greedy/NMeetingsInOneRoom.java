@@ -1,7 +1,6 @@
 package com.lakshya.Greedy;
 
 import java.util.Arrays;
-import java.util.Comparator;
 
 public class NMeetingsInOneRoom {
     static class Pair {

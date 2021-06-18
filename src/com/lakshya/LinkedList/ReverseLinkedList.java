@@ -1,6 +1,6 @@
 package com.lakshya.LinkedList;
 
-import java.util.Stack;
+// import java.util.Stack;
 
 public class ReverseLinkedList {
     static class Solution {

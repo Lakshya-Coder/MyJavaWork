@@ -1,6 +1,6 @@
 package com.lakshya.Array_Question;
 
-import java.util.Arrays;
+// import java.util.Arrays;
 
 public class RichestCustomerWealth {
     static class Solution {

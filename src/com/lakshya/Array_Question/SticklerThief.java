@@ -1,6 +1,6 @@
 package com.lakshya.Array_Question;
 
-import java.util.*;
+// import java.util.*;
 
 public class SticklerThief {
 	static class Solution {
@@ -34,21 +34,6 @@ public class SticklerThief {
 			}
 			
 			return max_value;
-		}
-
-		private int helper(int i, int[] arr) {
-			if (i <= -1) {
-				return 0;
-			}
-			
-			if (dp[i] != -1) {
-				return dp[i];
-			}
-			
-			int inc = arr[i] + helper(i - 2, arr); // include
-			int exc = helper(i - 1, arr); // exclude
-			
-			return dp[i] = Math.max(inc, exc);
 		}
 	}
 	

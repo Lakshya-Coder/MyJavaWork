@@ -21,7 +21,6 @@ public class TheKWeakestRowsInAMatrix {
             Pair[] rows_strenght = new Pair[n];
 
             for (int i = 0; i < n; i++) {
-                var rows = mat[i];
                 var sum = 0;
 
                 rows_strenght[i] = new Pair(sum, i);
@@ -33,6 +32,6 @@ public class TheKWeakestRowsInAMatrix {
     }
 
     public static void main(String[] args) {
-        int[][] mat = {};
+        // int[][] mat = {};
     }
 }
