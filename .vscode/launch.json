@@ -1,0 +1,1210 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ReverseBits",
+            "request": "launch",
+            "mainClass": "com.lakshya.BitManipulation.ReverseBits",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountGoodTriplets",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.CountGoodTriplets",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountItemsMatchingARule",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.CountItemsMatchingARule",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountNegativeNumbersInASortedMatrix",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.CountNegativeNumbersInASortedMatrix",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountNumberOfTeams",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.CountNumberOfTeams",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch DecompressRun_LengthEncodedList",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.DecompressRun_LengthEncodedList",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FinalPricesWithaSpecialDiscountinaShop",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FinalPricesWithaSpecialDiscountinaShop",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindAllFourSumNumbers",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FindAllFourSumNumbers",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindMissingAndRepeating",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FindMissingAndRepeating",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindNUniqueIntegersSumUpToZero",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FindNUniqueIntegersSumUpToZero",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindNumbersWithEvenNumberOfDigits",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FindNumbersWithEvenNumberOfDigits",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindPairGivenDifference",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FindPairGivenDifference",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindTheDifference",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FindTheDifference",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindTheHighestAltitude",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FindTheHighestAltitude",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FirstAndLastOccurrencesOfX",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FirstAndLastOccurrencesOfX",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FlippingAnImage",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.FlippingAnImage",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch KidsWithTheGreatestNumberOfCandies",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.KidsWithTheGreatestNumberOfCandies",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch LargestRectangleInHistogram",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.LargestRectangleInHistogram",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MajorityElement",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.MajorityElement",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MatrixDiagonalSum",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.MatrixDiagonalSum",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxConsecutiveOnes",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.MaxConsecutiveOnes",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumProductOfTwoElementsInAnArray",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.MaximumProductOfTwoElementsInAnArray",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumCostToMoveChipsToTheSamePosition",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.MinimumCostToMoveChipsToTheSamePosition",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumNumberOfOperationsToMoveAllBallsToEachBox",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.MinimumNumberOfOperationsToMoveAllBallsToEachBox",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumOperationsToMakeTheArrayIncreasing",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.MinimumOperationsToMakeTheArrayIncreasing",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumTimeVisitingAllPoints",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.MinimumTimeVisitingAllPoints",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOf1Bits",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.NumberOf1Bits",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfGoodPairs",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.NumberOfGoodPairs",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberOfStudentsDoingHomeworkAtAGivenTime",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.NumberOfStudentsDoingHomeworkAtAGivenTime",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch QueriesOnAPermutationWithKey",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.QueriesOnAPermutationWithKey",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReplaceElementsWithGreatestElementOnRightSide",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.ReplaceElementsWithGreatestElementOnRightSide",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RichestCustomerWealth",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.RichestCustomerWealth",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RunningSumOf1dArray",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.RunningSumOf1dArray",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchInRotatedSortedArray",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SearchInRotatedSortedArray",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchingInAnArrayWhereAdjacentDifferByAtMostK",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SearchingInAnArrayWhereAdjacentDifferByAtMostK",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ShuffleTheArray",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.ShuffleTheArray",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleNumber",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SingleNumber",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlideingWindowMaximum",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SlideingWindowMaximum",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortArrayByParity",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SortArrayByParity",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortColors",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SortColors",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortTheMatrixDiagonally",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SortTheMatrixDiagonally",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SticklerThief",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SticklerThief",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SubarraySumEqualsK",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SubarraySumEqualsK",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfAllOddLengthSubarrays",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SumOfAllOddLengthSubarrays",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfUniqueElements",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.SumOfUniqueElements",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TheKWeakestRowsInAMatrix",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.TheKWeakestRowsInAMatrix",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrapingRainWater",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.TrapingRainWater",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValueEqualToIndexValue",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.ValueEqualToIndexValue",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch XOROperationInAnArray",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.XOROperationInAnArray",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CreateAMirrorBinaryTree",
+            "request": "launch",
+            "mainClass": "com.lakshya.BinaryTree.CreateAMirrorBinaryTree",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch DiameterOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.lakshya.BinaryTree.DiameterOfBinaryTree",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch HeightOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.lakshya.BinaryTree.HeightOfBinaryTree",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch LeftViewOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.lakshya.BinaryTree.LeftViewOfBinaryTree",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch LevelOrderTraversal",
+            "request": "launch",
+            "mainClass": "com.lakshya.BinaryTree.LevelOrderTraversal",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLevelOrderTraversal$Solution",
+            "request": "launch",
+            "mainClass": "com.lakshya.BinaryTree.ReverseLevelOrderTraversal$Solution",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RightViewOfBinaryTree",
+            "request": "launch",
+            "mainClass": "com.lakshya.BinaryTree.RightViewOfBinaryTree",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ATM",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.ATM",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddNaturalNumbers",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.AddNaturalNumbers",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoNumbers",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.AddTwoNumbers",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch AdityaChocolates",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.AdityaChocolates",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlecGame",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.AlecGame",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch AlternativeSquarePattern",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.AlternativeSquarePattern",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch BuyPlease",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.BuyPlease",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch COVIDPandemicLongQueue",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.COVIDPandemicLongQueue",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChefAndHisDailyRoutine",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.ChefAndHisDailyRoutine",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChefAndOperators",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.ChefAndOperators",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ChefAndTableTennis",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.ChefAndTableTennis",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoderLifeMatters",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.CoderLifeMatters",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountOneOfBinaryRepresentation",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.CountOneOfBinaryRepresentation",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch EncodingMessage",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.EncodingMessage",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FactorsFinding",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.FactorsFinding",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FancyQuotes",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.FancyQuotes",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FinMe",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.FinMe",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindRemainder",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.FindRemainder",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FootballMatch",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.FootballMatch",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch GCD",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.GCD",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch GoodBadPersons",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.GoodBadPersons",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch GradeTheSteel",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.GradeTheSteel",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelpLostRobot",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.HelpLostRobot",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch HelpingChef",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.HelpingChef",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch INTEST",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.INTEST",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch IdAndShip",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.IdAndShip",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch IsBothOrNot",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.IsBothOrNot",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch LuckyFour",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.LuckyFour",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch Mahasena",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.Mahasena",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberIsPower2",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.NumberIsPower2",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch NumberMirror",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.NumberMirror",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch PlayPiano",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.PlayPiano",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrimeNumber",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.PrimeNumber",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProgramYourOwnCALCULATOR",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.ProgramYourOwnCALCULATOR",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RajuAndHisTrip",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.RajuAndHisTrip",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RangeOdd",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.RangeOdd",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch Rectangle",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.Rectangle",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseMe",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.ReverseMe",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseStarPattern",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.ReverseStarPattern",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SecondLargest",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.SecondLargest",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SellAllCars",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.SellAllCars",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch StudyingAlphabet",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.StudyingAlphabet",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumIsEverywhere",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.SumIsEverywhere",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfDigits",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.SumOfDigits",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TheBlockGame",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.TheBlockGame",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TotalExpenses",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.TotalExpenses",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TrainPartner",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.TrainPartner",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TriangleEverywhere",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.TriangleEverywhere",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TriangleWithAngle",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.TriangleWithAngle",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoVsTen",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.TwoVsTen",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidTriangleOrNot",
+            "request": "launch",
+            "mainClass": "com.lakshya.CodeChefProblem.ValidTriangleOrNot",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CoinChange",
+            "request": "launch",
+            "mainClass": "com.lakshya.DynamicProgramming.CoinChange",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxSumSubarry",
+            "request": "launch",
+            "mainClass": "com.lakshya.DynamicProgramming.MaxSumSubarry",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountSquares",
+            "request": "launch",
+            "mainClass": "com.lakshya.GeekForGeek.CountSquares",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FaultyKeyboard",
+            "request": "launch",
+            "mainClass": "com.lakshya.GeekForGeek.FaultyKeyboard",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleOfThree",
+            "request": "launch",
+            "mainClass": "com.lakshya.GeekForGeek.MiddleOfThree",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RomanNumberInteger",
+            "request": "launch",
+            "mainClass": "com.lakshya.GeekForGeek.RomanNumberInteger",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch JobSequencingProblem",
+            "request": "launch",
+            "mainClass": "com.lakshya.Greedy.JobSequencingProblem",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch NMeetingsInOneRoom",
+            "request": "launch",
+            "mainClass": "com.lakshya.Greedy.NMeetingsInOneRoom",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch AddTwoNumber",
+            "request": "launch",
+            "mainClass": "com.lakshya.LinkedList.AddTwoNumber",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ConvertBinaryNumberInLinkedListInteger",
+            "request": "launch",
+            "mainClass": "com.lakshya.LinkedList.ConvertBinaryNumberInLinkedListInteger",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MiddleTheLinkedList",
+            "request": "launch",
+            "mainClass": "com.lakshya.LinkedList.MiddleTheLinkedList",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseLinkedList",
+            "request": "launch",
+            "mainClass": "com.lakshya.LinkedList.ReverseLinkedList",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch KthElementMatrix",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.KthElementMatrix",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaxRectangle",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.MaxRectangle",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumSquar",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.MaximumSquar",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MedianInARowWiseSortedMatrix",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.MedianInARowWiseSortedMatrix",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RowWithMax1s",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.RowWithMax1s",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SearchA2DMatrix",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.SearchA2DMatrix",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SnakePattern",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.SnakePattern",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SortedMatrix",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.SortedMatrix",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpecificPairMatrix",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.SpecificPairMatrix",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SpirallTyraversingAMatrix",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.SpirallTyraversingAMatrix",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TransposeMatrix",
+            "request": "launch",
+            "mainClass": "com.lakshya.Matrix_Question.TransposeMatrix",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FaultyKeyboard(1)",
+            "request": "launch",
+            "mainClass": "com.lakshya.PepCoding.FaultyKeyboard",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountTripletsWithSumSmallerThanX",
+            "request": "launch",
+            "mainClass": "com.lakshya.SearchingAndSorting.CountTripletsWithSumSmallerThanX",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckIfTwoStringArraysEquivalent",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.CheckIfTwoStringArraysEquivalent",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckIfWordEqualsSummationOfTwoWords",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.CheckIfWordEqualsSummationOfTwoWords",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountSay",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.CountSay",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch CountTheNumberConsistentStrings",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.CountTheNumberConsistentStrings",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch DefangingIPAddress",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.DefangingIPAddress",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch GoalParserInterpretation",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.GoalParserInterpretation",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestCommonSubsequence",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.LongestCommonSubsequence",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestPalindromeInString",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.LongestPalindromeInString",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestRepeatingSubsequence",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.LongestRepeatingSubsequence",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch LongestSubstringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MaximumNestingDeptOfParentheses",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.MaximumNestingDeptOfParentheses",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch MinimumNumberOfStepsToMakeTwoStringsAnagram",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.MinimumNumberOfStepsToMakeTwoStringsAnagram",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch PalindromeString",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.PalindromeString",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch PartitioningIntoMinimumNumberOfDeciBinaryNumbers",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.PartitioningIntoMinimumNumberOfDeciBinaryNumbers",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch PermutationsGivenString",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.PermutationsGivenString",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintAllSubsequencesSring",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.PrintAllSubsequencesSring",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintDuplicateString",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.PrintDuplicateString",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ProgramToCheckStringsRotations",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.ProgramToCheckStringsRotations",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RedundantParenthesis",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.RedundantParenthesis",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RemoveVowels",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.RemoveVowels",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RepeatedDNASequences",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.RepeatedDNASequences",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.ReverseString",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SentenceIsPangram",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.SentenceIsPangram",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SingleRowKeyBoard",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.SingleRowKeyBoard",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SplitAStringInBalanced",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.SplitAStringInBalanced",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SplitStringBalancedString",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.SplitStringBalancedString",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfUpperAndLowerTriangle",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.SumOfUpperAndLowerTriangle",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ToLowerCase",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.ToLowerCase",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch ValidParentheses",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.ValidParentheses",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch WordWrap",
+            "request": "launch",
+            "mainClass": "com.lakshya.String.WordWrap",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch RoyProfilePicture",
+            "request": "launch",
+            "mainClass": "com.lakshya.hackerearth.RoyProfilePicture",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch TwoStrings",
+            "request": "launch",
+            "mainClass": "com.lakshya.hackerearth.TwoStrings",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch BinaryTreePreorderTraversal",
+            "request": "launch",
+            "mainClass": "com.lakshya.leetcode.BinaryTreePreorderTraversal",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch EliminationGame",
+            "request": "launch",
+            "mainClass": "com.lakshya.leetcode.EliminationGame",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindFirstAndLastElement",
+            "request": "launch",
+            "mainClass": "com.lakshya.leetcode.FindFirstAndLastElement",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch FindTheTownJudge",
+            "request": "launch",
+            "mainClass": "com.lakshya.leetcode.FindTheTownJudge",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch GenerateParenthesis",
+            "request": "launch",
+            "mainClass": "com.lakshya.leetcode.GenerateParenthesis",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch Subset",
+            "request": "launch",
+            "mainClass": "com.lakshya.leetcode.Subset",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "Main"
+        }
+    ]
+}
