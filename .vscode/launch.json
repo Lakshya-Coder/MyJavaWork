@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PlusOne",
+            "request": "launch",
+            "mainClass": "com.lakshya.Array_Question.PlusOne",
+            "projectName": "MyJavaWork"
+        },
+        {
+            "type": "java",
             "name": "Launch ReverseBits",
             "request": "launch",
             "mainClass": "com.lakshya.BitManipulation.ReverseBits",
